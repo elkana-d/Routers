@@ -1,0 +1,12 @@
+5
+Router1 127.0.0.1 12500
+Router2 127.0.0.1 25900
+Router3 127.0.0.1 38500
+Router4 127.0.0.1 47002
+Router5 127.0.0.1 56842
+Router1 Router2 8
+Router2 Router3 3
+Router3 Router4 1
+Router4 Router5 15
+Router5 Router1 1
+Router2 Router4 1

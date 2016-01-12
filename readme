@@ -1,0 +1,85 @@
+The login of the author:  elkanada
+name and ID:              elkana david 201458775
+The name of the exercise: ex4
+
+ 
+		Router.c   -> the program whit all the function
+		readme                 -> this file
+		Makefile               -> make the executable file
+
+
+
+
+
+//////////////////////************* FOR TO RUN WHIT PROGRAM U SHOULD PUT SOMTHING LIKE THIS IN THE SOME ONE TERMINAL*************\\\\\\\\\\\\\\\\\\\\\\\\
+./ex4 fileinput Router3 5
+
+
+
+
+
+all the method like in the main
+
+
+belmman* instal(char * nativ,char * head);//install from file the routers information
+
+
+
+
+void begginnigBelman(char * head);//the first Dv change [if] u are n Neighborhood the cost is the edge [else] is INFINITY
+
+
+
+char* getStrFromFile(FILE* fd);//getStrFromFile
+
+
+void printall ();//print the answer
+
+
+
+
+void *createServer(void* td);
+
+
+
+void *createClient(void* td);
+
+
+
+int  getPort (char * name,int port);//get the port for open server
+
+
+
+void error(const char *msg);//error msg
+
+
+
+void relaxPower(int * a,int routerId);//help to relax function
+
+
+
+
+void *relax(void* rd);
+
+
+
+void weChangeDv();//if the server ChangeDv
+
+
+
+void finishClient();//if all the server finish the client we not enter wait --- pthread_cond_wait(cv2,lock) ---
+
+
+
+
+void installThread(int argv3,char * head);//install the thread struct that they go we him
+
+
+
+void goThreads();//connecting the thread
+
+
+
+
+void freeAllMalloc(char * head);
+	
